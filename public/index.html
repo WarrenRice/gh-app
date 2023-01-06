@@ -1,0 +1,329 @@
+<html>
+    <head>
+        <title>GH Sheet</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap');
+        </style>
+        <link rel="stylesheet" href="style.css">
+
+        
+    </head>
+
+    <body>
+        <header>
+            <h2>City of Moramichi<br>
+                Community Wellness and Recreation Department<br>
+                <br>
+                GOLDEN HAWK RECREATION CENTRE<br>
+                Daily Cash Reconcillation
+            </h2>
+        </header>
+
+        <div id="content-container">
+
+            <div id="left-container"></div>
+
+            <div id="main-container">
+                <div class="content-section" id="shift-container">
+                    <div class="shift-info" id="date">
+                        <label for="shift-date">Date:</label>
+                        <input type="date" id="shift-date" name="shift-date">
+                    </div>
+    
+                    <div class="shift-info" id="shift">
+                        <label for="shift-start">Shift Start:</label>
+                        <input type="time" id="shift-start" name="shift-start">
+                        <label for="shift-end">End:</label>
+                        <input type="time" id="shift-end" name="shift-end">
+                    </div>
+    
+                    <div class="shift-info" id="name-containter">
+                        <div class="staff-box">
+                            <label for="staff-menu">Name(1):</label>
+                            <select id="staff-menu-1" name="staff-menu-1">
+                                <option value="Selection">Selection</option>
+                                <option value="Jason">Jason</option>
+                                <option value="Key">Key</option>
+                                <option value="Micheal">Micheal</option>
+                                <option value="Dana">Dana</option>
+                                <option value="Warren">Warren</option>
+                                <option value="Rogan">Rogan</option>                               
+                                <option value="Reggy">Reggy</option>
+                                <option value="Cold">Cold</option>
+                            </select>
+                        </div>
+                        <div class="staff-box">
+                            <label for="staff-menu">Name(2):</label>
+                            <select id="staff-menu-2" name="staff-menu-2">
+                                <option value="Selection">Selection</option>
+                                <option value="Jason">Jason</option>
+                                <option value="Key">Key</option>
+                                <option value="Micheal">Micheal</option>
+                                <option value="Dana">Dana</option>
+                                <option value="Warren">Warren</option>
+                                <option value="Rogan">Rogan</option>                              
+                                <option value="Reggy">Reggy</option>
+                                <option value="Cold">Cold</option>
+                            </select>
+                        </div>
+                        <div class="staff-box">
+                            <label for="staff-menu">Name(3):</label>
+                            <select id="staff-menu-3" name="staff-menu-3">
+                                <option value="Selection">Selection</option>
+                                <option value="Jason">Jason</option>
+                                <option value="Key">Key</option>
+                                <option value="Micheal">Micheal</option>
+                                <option value="Dana">Dana</option>
+                                <option value="Warren">Warren</option>
+                                <option value="Rogan">Rogan</option> 
+                                <option value="Reggy">Reggy</option>
+                                <option value="Cold">Cold</option>
+                            </select>
+                        </div>
+                        <div class="staff-box">
+                            <label for="staff-menu">Name(4):</label>
+                            <select id="staff-menu-3" name="staff-menu-3">
+                                <option value="Selection">Selection</option>
+                                <option value="Jason">Jason</option>
+                                <option value="Key">Key</option>
+                                <option value="Micheal">Micheal</option>
+                                <option value="Dana">Dana</option>
+                                <option value="Warren">Warren</option>
+                                <option value="Rogan">Rogan</option> 
+                                <option value="Reggy">Reggy</option>
+                                <option value="Cold">Cold</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="shift-info" id="cash-float">
+                        <h4>Float: $100.00</h3>
+                    </div>
+                </div>
+    
+                <div class="content-section" id="cash-container">
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-20"></label>
+                            <input type="number" class="cash-amount" id="cash-20-in" name="cash-20" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$20</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-20-out">$0.00</p>
+                        </div> 
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-10"></label>
+                            <input type="number" class="cash-amount" id="cash-10-in" name="cash-10" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$10</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-10-out">$0.00</p>
+                        </div>                         
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-5"></label>
+                            <input type="number" class="cash-amount" id="cash-5-in" name="cash-5" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$5</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-5-out">$0.00</p>
+                        </div> 
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-2"></label>
+                            <input type="number" class="cash-amount" id="cash-2-in" name="cash-2" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$2</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-2-out">$0.00</p>
+                        </div>                         
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-1"></label>
+                            <input type="number" class="cash-amount" id="cash-1-in" name="cash-1" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$1</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-1-out">$0.00</p>
+                        </div>   
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-025"></label>
+                            <input type="number" class="cash-amount" id="cash-025-in" name="cash-025" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$0.25</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-025-out">$0.00</p>
+                        </div>                            
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-010"></label>
+                            <input type="number" class="cash-amount" id="cash-010-in" name="cash-010" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$0.1</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-010-out">$0.00</p>
+                        </div>                             
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <label for="cash-005"></label>
+                            <input type="number" class="cash-amount" id="cash-005-in" name="cash-005" value="0" min="0">
+                        </div> 
+                        <div class="middle-text">
+                            <p>x&emsp;&emsp;$0.05</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-005-out">$0.00</p>
+                        </div>                         
+                    </div>  
+                    <div class="money-container">
+                        <div class="input-number">
+                            <p>Cash Receipt:</p>
+                        </div> 
+                        <div class="middle-text" >
+                            <input type="number" class="cash-amount" id="cash-receipt" name="cash-receipt" value="0" min="0">
+                        </div> 
+                        <div class="output-number">
+                        </div>                        
+                    </div>
+                    <div class="money-container">
+                        <div class="input-number">
+                            <p></p>
+                        </div> 
+                        <div class="middle-text">
+                            <p>Total Cash on Hand:</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-total">$0.00</p>
+                        </div>                         
+                    </div>     
+                    <div class="money-container">
+                        <div class="input-number">
+                            <p></p>
+                        </div> 
+                        <div class="middle-text">
+                            <p>-Less Float</p>
+                        </div> 
+                        <div class="output-number">
+                            <p>$100.00</p>
+                        </div>                     
+                    </div>    
+                    <div class="money-container">
+                        <div class="input-number">
+                            <p></p>
+                        </div> 
+                        <div class="middle-text">
+                            <p>Total Deposit:</p>
+                        </div> 
+                        <div class="output-number">
+                            <p id="cash-deposit">$0.00</p>
+                        </div> 
+                    </div>      
+                </div>
+
+                <div class="content-section" id="passage-container">
+                    <div class="blue-card">
+                        <div>
+                            <div>
+                                <div>
+                                    <input type="checkbox" id="checkbox1" name="terms">
+                                </div>
+                                <div>
+                                    <label for="name-1">Name :</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="name-1" name="name-1" class="card-input">
+                                </div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div>
+                                    <label for="card-1">Card# :</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="card-1" name="card-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blue-card">
+                        <div>
+                            <div>
+                                <div>
+                                    <input type="checkbox" id="checkbox2" name="terms">
+                                </div>
+                                <div>
+                                    <label for="name-2">Name :</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="name-2" name="name-2" class="card-input">
+                                </div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div>
+                                    <label for="card-2">Card# :</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="card-2" name="card-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blue-card">
+                        <div>
+                            <div>
+                                <div>
+                                    <input type="checkbox" id="checkbox3" name="terms">
+                                </div>
+                                <div>
+                                    <label for="name-3">Name :</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="name-3" name="name-3" class="card-input">
+                                </div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div>
+                                    <label for="card-3">Card# :</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="card-3" name="card-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="right-container"></div>
+        </div>
+
+        <footer>
+            <p style="text-align: center;">Created by Warren Rice (Warin Poomarin)</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+  
+header {
+    text-align: center;
+    margin: auto;
+    
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.content-section {
+    /* background-color: gray; */
+}
+
+#content-container {
+    display: flex;
+}
+
+#left-container {
+    width: auto;
+    /* background-color: black; */
+}
+
+#right-container {
+    width: auto;
+    /* background-color: black; */
+}
+
+#shift-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shift-info {
+    font-weight: bold;
+    flex: 0 0 50%;
+}
+
+#date {
+    /* background-color: red; */
+}
+
+#shift {
+    /* background-color: salmon; */
+}
+
+#name-containter {
+    /* background-color: green; */
+}
+
+#cash-float {
+    /* background-color: yellow; */
+}
+
+#name-containter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.money-container {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+
+#cash-container > div:nth-child(odd) {
+    background-color: rgb(176, 217, 224);
+}
+
+#cash-container > div:nth-child(even) {
+    background-color: rgb(216, 249, 255);
+}
+
+.money-container > div {
+    /* background-color: coral; */
+    /* outline: 1px solid; */
+    /* outline-color: red; */
+    margin: auto;
+    width: 100%;
+}
+
+.output-number {
+    text-align: center;
+}
+
+.input-number {
+    text-align: center;
+}
+
+#passage-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: rgb(176, 217, 224);
+}
+
+#passage-container > div {
+    outline: 1px solid;
+}
+
+.blue-card > div {
+    align-items: center;
+    margin: 5px 5px;
+}
+
+.blue-card > div > div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.blue-card > div > div > :first-child{
+    width: 25px;
+    /* outline: 1px solid; */
+}
+
+.cash-amount {
+    width: 100px;
+}
