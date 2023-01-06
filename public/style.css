@@ -2,7 +2,28 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
 }
+
+:root {
+    font-size: 16px;
+}
   
+h1 {
+    font-size: 2rem;
+}
+  
+p {
+    font-size: 2rem;
+  }
+
+input[type="number"] {
+    width: 150px;
+    height: 40px;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    text-align: center;
+}
+    
+
 header {
     text-align: center;
     margin: auto;
@@ -90,7 +111,7 @@ header {
 }
 
 .input-number {
-    text-align: center;
+    text-align: right;
 }
 
 #passage-container {
